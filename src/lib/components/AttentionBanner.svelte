@@ -32,7 +32,7 @@
 
 {#if showBanner}
 <div class="mx-2 sm:mx-4 my-2 rounded-lg border border-purple-600 bg-purple-400/20 p-3 sm:p-4 relative">
-	<div class="flex flex-col sm:flex-row items-start gap-3">
+	<div class="flex flex-col sm:flex-row items-center sm:items-start gap-3">
 		<!-- Close Button -->
 		<button 
 			class="absolute top-2 right-2 text-gray-400 hover:text-white text-xl font-bold p-1 z-10"
@@ -54,14 +54,14 @@
 		</div>
 
 		<!-- Content -->
-		<div class="flex-grow pr-8">
+		<div class="flex-grow pr-0 sm:pr-8">
 			<h3 class="mb-2 text-xl sm:text-2xl font-bold tracking-wide text-yellow-400 text-center sm:text-left">ATTENTION</h3>
 
 			<p class="mb-3 text-base sm:text-lg text-slate-300 text-center sm:text-left leading-relaxed">
 				Only trust open-source scripts you can verify! Bruce is open-source under AGPL License - never pay for scripts, firmware forks or themes.
 			</p>
 
-			<ul class="text-sm sm:text-md space-y-2 text-slate-300 mb-3">
+			<ul class="text-sm sm:text-md space-y-2 text-slate-300 mb-3 text-left">
 				<li class="flex items-start gap-2 leading-relaxed">
 					<span class="h-1.5 w-1.5 rounded-full bg-slate-400 mt-2 flex-shrink-0"></span>
 					<span>Always read the code before executing</span>

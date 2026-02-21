@@ -32,7 +32,7 @@
 
 {#if showBanner}
 <div class="mx-2 sm:mx-4 my-2 rounded-lg border border-blue-600 bg-blue-400/20 p-3 sm:p-4 relative">
-	<div class="flex flex-col sm:flex-row items-start gap-3">
+	<div class="flex flex-col sm:flex-row items-center sm:items-start gap-3">
 		<!-- Close Button -->
 		<button 
 			class="absolute top-2 right-2 text-gray-400 hover:text-white text-xl font-bold p-1 z-10"
@@ -54,14 +54,14 @@
 		</div>
 
 		<!-- Content -->
-		<div class="flex-grow pr-8">
+		<div class="flex-grow pr-0 sm:pr-8">
 			<h3 class="mb-2 text-xl sm:text-2xl font-bold tracking-wide text-blue-400 text-center sm:text-left">INSTALLATION</h3>
 
 			<p class="mb-3 text-base sm:text-lg text-slate-300 text-center sm:text-left leading-relaxed">
 				To install apps or themes, put files on the SD card/LittleFS:
 			</p>
 
-			<ul class="text-sm sm:text-md space-y-2 text-slate-300 mb-3">
+			<ul class="text-sm sm:text-md space-y-2 text-slate-300 mb-3 text-left">
 				<li class="flex items-start gap-2 leading-relaxed">
 					<span class="h-1.5 w-1.5 rounded-full bg-blue-400 mt-2 flex-shrink-0"></span>
 					<span><strong>Apps:</strong> Put into <code class="bg-gray-700 px-1 rounded text-blue-300">/BruceJS/&lt;CategoryName&gt;/File.js</code></span>
