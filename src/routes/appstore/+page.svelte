@@ -495,7 +495,7 @@
 <!-- App Detail Modal -->
 {#if showModal && selectedApp}
 	<div class="fixed inset-0 bg-black bg-opacity-50 flex items-start justify-center z-50 p-2 sm:p-4 pt-32 sm:pt-24" onclick={closeModal}>
-		<div class="bg-gray-800 rounded-lg w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-2xl max-h-[75vh] sm:max-h-[85vh] overflow-y-auto" onclick={(e) => e.stopPropagation()}>
+		<div class="bg-gray-800 rounded-lg w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-2xl max-h-[80vh] sm:max-h-[80vh] overflow-y-auto" onclick={(e) => e.stopPropagation()}>
 			<!-- Modal Header -->
 			<div class="sticky top-0 bg-gray-800 p-3 sm:p-6 border-b border-gray-700">
 				<div class="flex justify-between items-start mb-3">
